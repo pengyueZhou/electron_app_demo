@@ -1,0 +1,43 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add electron-squirrel-startup
+
+PATH: 
+  /Users/pengyuezhou/github/my-electron-app/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/Users/pengyuezhou/Library/Caches/Yarn/v6/npm-jsonfile-6.1.0-bc55b2634793c679ec6403094eb13698a6ec0aae-integrity/node_modules/jsonfile/CHANGELOG.md' -> '/Users/pengyuezhou/github/my-electron-app/node_modules/electron-notarize/node_modules/jsonfile/CHANGELOG.md'
+
+npm manifest: 
+  {
+    "name": "y",
+    "version": "1.0.0",
+    "description": "hello electron",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron-forge start",
+      "package": "electron-forge package",
+      "make": "electron-forge make"
+    },
+    "author": "zpy",
+    "license": "MIT",
+    "devDependencies": {
+      "@electron-forge/cli": "^6.0.0-beta.63",
+      "electron": "^16.0.7"
+    },
+    "dependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
